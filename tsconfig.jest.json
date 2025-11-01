@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["coverage", "bin", "doc", "design", "node_modules"],
+  "include": ["**/*.d.ts", "**/*.mock.ts", "**/*.spec.ts"],
+  "types": ["jest"]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "@bjanderson/usfm-parser",
+  "version": "0.0.2",
+  "author": "BJ Anderson",
+  "description": "Convert USFM formatted text into other document types.",
+  "license": "MIT",
+  "private": true,
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "bin": {
+    "usfm-parser": "bin/index.js"
+  },
+  "directories": {"bin": "bin"},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjanderson/usfm-parser.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "doc": "typedoc --out ./docs src/**/*.ts",
+    "lint": "eslint",
+    "lint:fix": "npm run lint -- --fix",
+    "prepublish": "npm run build",
+    "push:major": "npm version major",
+    "push:minor": "npm version minor",
+    "push:patch": "npm version patch",
+    "start": "npm run build && node ./bin/index.js",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "test:watch": "jest --clearCache && jest --coverage --watch"
+  },
+  "devDependencies": {
+    "@bjanderson/utils": "3.1.0",
+    "@types/jest": "30.0.0",
+    "eslint": "9.38.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.4",
+    "eslint-plugin-unused-imports": "4.3.0",
+    "import": "0.0.6",
+    "jest": "30.2.0",
+    "prettier": "3.6.2",
+    "rimraf": "6.0.1",
+    "ts-jest": "29.4.5",
+    "typedoc": "0.28.14",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.46.2"
+  },
+  "peerDependencies": {
+    "@bjanderson/utils": "^3.0.0"
+  },
+  "files": [
+    "bin/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
