@@ -1,0 +1,46 @@
+{
+  "chapters": {},
+  "headers": [],
+  "verses": {
+    "1": {
+      "verseObjects": [
+        {
+          "children": [
+            {
+              "content-source": "bhp",
+              "lemma": "Ἰησοῦς",
+              "morph": "Gr,N,,,,,GMS,",
+              "strong": "G24240",
+              "tag": "w",
+              "text": "Ἰησοῦ",
+              "type": "word"
+            },
+            {
+              "text": " ",
+              "type": "text"
+            },
+            {
+              "content-source": "bhp",
+              "lemma": "χριστός",
+              "morph": "Gr,N,,,,,GMS,",
+              "strong": "G55470",
+              "tag": "w",
+              "text": "Χριστοῦ",
+              "tw": "rc://*/tw/dict/bible/kt/christ",
+              "type": "word"
+            }
+          ],
+          "content-source": "bhp",
+          "endTag": "k-e\\*",
+          "tag": "k",
+          "tw": "rc://*/tw/dict/bible/kt/jesus",
+          "type": "milestone"
+        },
+        {
+          "text": ",\n",
+          "type": "text"
+        }
+      ]
+    }
+  }
+}

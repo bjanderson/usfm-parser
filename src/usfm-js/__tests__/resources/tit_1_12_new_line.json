@@ -1,0 +1,80 @@
+{
+  "chapters": {
+    "1": {
+      "12": {
+        "verseObjects": [
+          {
+            "lemma": "προφήτης",
+            "morph": "Gr,N,,,,,NMS,",
+            "strong": "G43960",
+            "tag": "w",
+            "text": "προφήτης",
+            "type": "word"
+          },
+          {
+            "text": ",\n“",
+            "type": "text"
+          },
+          {
+            "lemma": "Κρής",
+            "morph": "Gr,N,,,,,NMP,",
+            "strong": "G29120",
+            "tag": "w",
+            "text": "Κρῆτες",
+            "type": "word"
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "lemma": "ἀργός",
+            "morph": "Gr,AA,,,,NFP,",
+            "strong": "G06920",
+            "tag": "w",
+            "text": "ἀργαί",
+            "type": "word"
+          },
+          {
+            "text": ".”\n",
+            "type": "text"
+          }
+        ]
+      },
+      "front": {
+        "verseObjects": [
+          {
+            "text": "\n",
+            "type": "text"
+          }
+        ]
+      }
+    }
+  },
+  "headers": [
+    {
+      "content": "TIT Titus",
+      "tag": "id"
+    },
+    {
+      "content": "UTF-8",
+      "tag": "ide"
+    },
+    {
+      "content": "Titus",
+      "tag": "h"
+    },
+    {
+      "content": "Titus",
+      "tag": "toc2"
+    },
+    {
+      "content": "Tit",
+      "tag": "toc3"
+    },
+    {
+      "content": "Titus",
+      "tag": "mt"
+    }
+  ]
+}

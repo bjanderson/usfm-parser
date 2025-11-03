@@ -7,6 +7,7 @@
     "lib": ["esnext"],
     "module": "commonjs",
     "moduleResolution": "node",
+    "noImplicitAny": false,
     "outDir": "./bin",
     "rootDir": "./src",
     "target": "esnext"
@@ -18,6 +19,7 @@
     "jest",
     "node_modules",
     "scripts",
+    "**/__tests__/**",
     "**/*.spec.ts",
     "**/*.mock.ts"
   ]

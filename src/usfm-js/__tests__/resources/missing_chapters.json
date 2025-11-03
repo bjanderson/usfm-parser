@@ -1,0 +1,84 @@
+{
+  "headers": [
+    {
+      "content": "php",
+      "tag": "id"
+    },
+    {
+      "content": "UTF-8",
+      "tag": "ide"
+    },
+    {
+      "content": "Philippians",
+      "tag": "h"
+    },
+    {
+      "content": "The Epistle of Paul the Apostle to the Philippians",
+      "tag": "toc1"
+    },
+    {
+      "content": "Philippians",
+      "tag": "toc2"
+    },
+    {
+      "content": "Php",
+      "tag": "toc3"
+    },
+    {
+      "content": "The Epistle of Paul the Apostle to the Philippians",
+      "tag": "mt"
+    },
+    {
+      "text": "\n\n\n\n",
+      "type": "text"
+    },
+    {
+      "tag": "s5",
+      "type": "section"
+    }
+  ],
+  "chapters": {
+    "3": {
+      "front": {
+        "verseObjects": [
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      },
+      "1": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "Finally, my brothers, rejoice in the Lord.  For me to write these same things to you is not a problem, and they will keep you safe.\n"
+          },
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      },
+      "2": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "Watch out for the dogs. Watch out for the evil workers. Watch out for the mutilators.\n\n\n\n\n"
+          },
+          {
+            "tag": "s5",
+            "nextChar": "\n",
+            "type": "section"
+          },
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      }
+    }
+  }
+}

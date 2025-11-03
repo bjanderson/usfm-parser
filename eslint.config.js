@@ -16,9 +16,11 @@ module.exports = tseslint.config({
   ],
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-implicit-any': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/class-literal-property-style': 'off',
 
+    'no-implicit-any': 'off',
     'no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
   },

@@ -1,0 +1,157 @@
+{
+  "headers": [
+    {
+      "content": "php",
+      "tag": "id"
+    },
+    {
+      "content": "UTF-8",
+      "tag": "ide"
+    },
+    {
+      "content": "Philippians",
+      "tag": "h"
+    },
+    {
+      "content": "The Epistle of Paul the Apostle to the Philippians",
+      "tag": "toc1"
+    },
+    {
+      "content": "Philippians",
+      "tag": "toc2"
+    },
+    {
+      "content": "Php",
+      "tag": "toc3"
+    },
+    {
+      "content": "The Epistle of Paul the Apostle to the Philippians",
+      "tag": "mt"
+    },
+    {
+      "text": "\n",
+      "type": "text"
+    },
+    {
+      "tag": "s5",
+      "type": "section"
+    }
+  ],
+  "chapters": {
+    "1": {
+      "front": {
+        "verseObjects": [
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      },
+      "1": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "Paul and Timothy, servants of Christ Jesus, to all the ones set apart in Christ Jesus who are at Philippi, with the overseers and deacons.\n"
+          }
+        ]
+      },
+      "2": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.\n\n\n\n"
+          },
+          {
+            "tag": "s5",
+            "nextChar": "\n",
+            "type": "section"
+          }
+        ]
+      }
+    },
+    "2": {
+      "front": {
+        "verseObjects": [
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      },
+      "1": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "If there is therefore any encouragement in Christ, if any comfort from his love, if any fellowship of the Spirit, if any tender mercies and compassions,\n"
+          }
+        ]
+      },
+      "2": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "make my joy full so that you are of the same mind, have the same love, are united in spirit, and have the same purpose.\n"
+          }
+        ]
+      }
+    },
+    "3": {
+      "front": {
+        "verseObjects": [
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      },
+      "1": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "Finally, my brothers, rejoice in the Lord.  For me to write these same things to you is not a problem, and they will keep you safe.\n"
+          }
+        ]
+      },
+      "2": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "Watch out for the dogs. Watch out for the evil workers. Watch out for the mutilators.\n\n\n\n"
+          },
+          {
+            "tag": "s5",
+            "nextChar": "\n",
+            "type": "section"
+          }
+        ]
+      }
+    },
+    "4": {
+      "front": {
+        "verseObjects": [
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      },
+      "1": {
+        "verseObjects": [
+          {
+            "type": "text",
+            "text": "Therefore, my beloved brothers whom I long for, my joy and crown, in this way stand firm in the Lord, beloved friends.\n\n\n"
+          },
+          {
+            "tag": "s5",
+            "nextChar": "\n",
+            "type": "section"
+          }
+        ]
+      }
+    }
+  }
+}

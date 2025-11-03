@@ -1,0 +1,9 @@
+export declare const createDirectory: (path: any) => void;
+export declare const pathExists: (path: any) => boolean;
+export declare const createDirectoryIfNotExists: (path: any) => void;
+export declare const getFiles: (directory: any) => string[];
+export declare const readFile: (fileName: any) => string;
+export declare const readJsonFile: (filename: any) => any;
+export declare const writeFile: (file: any, text: any, overwrite?: boolean) => void;
+export declare const writeJsonFile: (filename: any, json: any) => void;
+export declare const execute: (command: any) => void;

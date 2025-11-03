@@ -1,0 +1,86 @@
+{
+  "chapters": {
+    "23": {
+      "1": {
+        "verseObjects": [
+          {
+            "text": "Then Job answered and said,\n",
+            "type": "text"
+          },
+          {
+            "tag": "q",
+            "nextChar": "\n",
+            "type": "quote"
+          }
+        ]
+      },
+      "2": {
+        "verseObjects": [
+          {
+            "text": "\"Even today my complaint is bitter;\n",
+            "type": "text"
+          },
+          {
+            "tag": "q",
+            "text": "my hand ",
+            "type": "quote"
+          },
+          {
+            "content": "+ \\ft Some copies have: \\fqa ... his hand ... \\fqa* ",
+            "endTag": "f*",
+            "nextChar": " ",
+            "tag": "f",
+            "type": "footnote"
+          },
+          {
+            "text": "is heavy because of my groaning.\n\n",
+            "type": "text"
+          }
+        ]
+      },
+      "front": {
+        "verseObjects": [
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          }
+        ]
+      }
+    }
+  },
+  "headers": [
+    {
+      "content": "JOB Unlocked Literal Bible",
+      "tag": "id"
+    },
+    {
+      "content": "UTF-8",
+      "tag": "ide"
+    },
+    {
+      "content": "Job",
+      "tag": "h"
+    },
+    {
+      "content": "The Book of Job",
+      "tag": "toc1"
+    },
+    {
+      "content": "Job",
+      "tag": "toc2"
+    },
+    {
+      "content": "Job",
+      "tag": "toc3"
+    },
+    {
+      "content": "Job",
+      "tag": "mt"
+    },
+    {
+      "tag": "s5",
+      "type": "section"
+    }
+  ]
+}

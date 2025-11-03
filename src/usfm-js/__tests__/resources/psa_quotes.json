@@ -1,0 +1,186 @@
+{
+  "chapters": {
+    "1": {
+      "1": {
+        "verseObjects": [
+          {
+            "text": "Blessed is the man who does not walk in the advice of the wicked,\n",
+            "type": "text"
+          },
+          {
+            "tag": "q",
+            "text": "or stand in the pathway with sinners,\n",
+            "type": "quote"
+          },
+          {
+            "tag": "q",
+            "text": "or sit in the assembly of mockers.\n",
+            "type": "quote"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "q",
+            "type": "quote"
+          }
+        ]
+      },
+      "2": {
+        "verseObjects": [
+          {
+            "text": "But his delight is in the law of Yahweh,\n",
+            "type": "text"
+          },
+          {
+            "tag": "q",
+            "text": "and on his law he meditates day and night.\n",
+            "type": "quote"
+          },
+          {
+            "endTag": "qs*",
+            "tag": "qs",
+            "text": "Selah",
+            "type": "quote"
+          },
+          {
+            "text": "\n\n ",
+            "type": "text"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "s5",
+            "type": "section"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "q",
+            "type": "quote"
+          }
+        ]
+      },
+      "3": {
+        "verseObjects": [
+          {
+            "text": "He will be like a tree planted by the streams of water\n",
+            "type": "text"
+          },
+          {
+            "tag": "q",
+            "text": "that produces its fruit in its season,\n",
+            "type": "quote"
+          },
+          {
+            "tag": "q",
+            "text": "whose leaves do not wither;\n",
+            "type": "quote"
+          },
+          {
+            "tag": "q",
+            "text": "whatever he does will prosper.\n",
+            "type": "quote"
+          },
+          {
+            "text": "\n",
+            "type": "text"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "s5",
+            "type": "section"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "q",
+            "type": "quote"
+          }
+        ]
+      },
+      "4": {
+        "verseObjects": [
+          {
+            "text": "The wicked are not so,\n",
+            "type": "text"
+          },
+          {
+            "tag": "q",
+            "text": "but are instead like the chaff that the wind drives away.\n",
+            "type": "quote"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "q",
+            "type": "quote"
+          }
+        ]
+      },
+      "5": {
+        "verseObjects": [
+          {
+            "text": "So the wicked will not stand in the judgment,\n",
+            "type": "text"
+          },
+          {
+            "tag": "q",
+            "text": "nor sinners in the assembly of the righteous.\n",
+            "type": "quote"
+          }
+        ]
+      },
+      "front": {
+        "verseObjects": [
+          {
+            "nextChar": "\n",
+            "tag": "p",
+            "type": "paragraph"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "q",
+            "type": "quote"
+          }
+        ]
+      }
+    }
+  },
+  "headers": [
+    {
+      "content": "PSA Unlocked Literal Bible",
+      "tag": "id"
+    },
+    {
+      "content": "UTF-8",
+      "tag": "ide"
+    },
+    {
+      "content": "Psalms",
+      "tag": "h"
+    },
+    {
+      "content": "The Book of Psalms",
+      "tag": "toc1"
+    },
+    {
+      "content": "Psalms",
+      "tag": "toc2"
+    },
+    {
+      "content": "Psa",
+      "tag": "toc3"
+    },
+    {
+      "content": "The Book of Psalms",
+      "tag": "mt"
+    },
+    {
+      "content": "Book One",
+      "tag": "ms"
+    },
+    {
+      "tag": "s5",
+      "type": "section"
+    },
+    {
+      "content": "Psalm",
+      "tag": "cl"
+    }
+  ]
+}

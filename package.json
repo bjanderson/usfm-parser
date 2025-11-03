@@ -3,14 +3,16 @@
   "version": "0.0.2",
   "author": "BJ Anderson",
   "description": "Convert USFM formatted text into other document types.",
-  "license": "MIT",
+  "license": "ISC",
   "private": true,
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "bin": {
     "usfm-parser": "bin/index.js"
   },
-  "directories": {"bin": "bin"},
+  "directories": {
+    "bin": "bin"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },

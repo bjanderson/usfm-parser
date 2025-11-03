@@ -1,0 +1,38 @@
+/**
+I am including a copy of this license here because the usfm-js project package.json
+says that it uses the ISC license, but no copy of that license was included with
+the source code when I copied it.
+
+I copied this code from https://github.com/unfoldingWord/usfm-js on 11/1/2025, and
+have modified it since then.
+
+ISC License
+
+Copyright <YEAR> <OWNER>
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+*/
+export declare const removeMarker: (string?: string) => string;
+/**
+ * takes the text of a verse and converts to verseObjects
+ * @param {String} text - verse text to convert
+ * @return {Object|*} verseObjects for verseText
+ */
+export declare const convertStringToVerseObjects: (text: any) => any;
+/**
+ * @description merge verse data into a string
+ * @param {Object|Array} verseData - verse objects to be merged
+ * @param {array} filter - Optional filter to get a specific type of word object type.
+ * @return {String} - the merged verse object string
+ */
+export declare const mergeVerseData: (verseData: any) => string;

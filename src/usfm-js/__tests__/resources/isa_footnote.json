@@ -1,0 +1,114 @@
+{
+  "chapters": {
+    "5": {
+      "15": {
+        "verseObjects": [
+          {
+            "text": "Man is brought down, and the great man is humbled, and the eyes of the lofty are cast down.\n",
+            "type": "text"
+          },
+          {
+            "tag": "q1",
+            "nextChar": "\n",
+            "type": "quote"
+          }
+        ]
+      },
+      "16": {
+        "verseObjects": [
+          {
+            "text": "Yahweh of hosts is exalted in his justice, and God the Holy One shows himself holy by his righteousness.\n",
+            "type": "text"
+          },
+          {
+            "tag": "q1",
+            "nextChar": "\n",
+            "type": "quote"
+          }
+        ]
+      },
+      "17": {
+        "verseObjects": [
+          {
+            "text": "Then the sheep will feed as in their own pasture, and in the ruins, lambs will graze as foreigners.\n",
+            "type": "text"
+          },
+          {
+            "content": "+ \\ft Some modern versions have \\fqa and in the ruins of the rich, lambs will graze \\fqb . ",
+            "endTag": "f*",
+            "nextChar": "\n",
+            "tag": "f",
+            "type": "footnote"
+          },
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          },
+          {
+            "tag": "q1",
+            "nextChar": "\n",
+            "type": "quote"
+          }
+        ]
+      },
+      "front": {
+        "verseObjects": [
+          {
+            "tag": "p",
+            "nextChar": "\n",
+            "type": "paragraph"
+          },
+          {
+            "tag": "q1",
+            "nextChar": "\n",
+            "type": "quote"
+          },
+          {
+            "text": "\n",
+            "type": "text"
+          },
+          {
+            "nextChar": "\n",
+            "tag": "s5",
+            "type": "section"
+          }
+        ]
+      }
+    }
+  },
+  "headers": [
+    {
+      "content": "ISA Unlocked Literal Bible",
+      "tag": "id"
+    },
+    {
+      "content": "UTF-8",
+      "tag": "ide"
+    },
+    {
+      "content": "Isaiah",
+      "tag": "h"
+    },
+    {
+      "content": "The Book of Isaiah",
+      "tag": "toc1"
+    },
+    {
+      "content": "Isaiah",
+      "tag": "toc2"
+    },
+    {
+      "content": "Isa",
+      "tag": "toc3"
+    },
+    {
+      "content": "The Book of the Prophet Isaiah",
+      "tag": "mt"
+    },
+    {
+      "tag": "s5",
+      "type": "section"
+    }
+  ]
+}
