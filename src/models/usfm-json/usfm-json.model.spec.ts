@@ -1,10 +1,10 @@
-import { DEFAULT_STRING } from '@bjanderson/utils';
 import { UsfmJson } from './usfm-json.model';
 
 describe('UsfmJson', () => {
   describe('constructor defaults', () => {
     const defaults = {
-      id: DEFAULT_STRING,
+      chapters: undefined,
+      headers: [],
     };
 
     it('should have the expected fields', () => {
@@ -19,7 +19,8 @@ describe('UsfmJson', () => {
   describe('constructor assignments', () => {
     it('should set all values passed into the constructor', () => {
       const test = {
-        id: 'test id',
+        chapters: {},
+        headers: [],
       };
 
       expect(Object.values(test)).toEqual(Object.values(new UsfmJson(test)));

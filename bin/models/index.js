@@ -14,12 +14,9 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-__exportStar(require("./book"), exports);
-__exportStar(require("./chapter"), exports);
+__exportStar(require("./parser-config"), exports);
 __exportStar(require("./usfm-book"), exports);
 __exportStar(require("./usfm-chapter"), exports);
-__exportStar(require("./usfm-footnote"), exports);
 __exportStar(require("./usfm-json"), exports);
 __exportStar(require("./usfm-object"), exports);
 __exportStar(require("./usfm-verse"), exports);
-__exportStar(require("./verse"), exports);

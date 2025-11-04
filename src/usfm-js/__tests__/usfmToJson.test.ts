@@ -1,4 +1,3 @@
-/* eslint-disable quote-props,no-use-before-define */
 import { createUsfmObject, pushObject, usfmToJSON } from '../usfmToJson';
 import { readJSON, readUSFM } from './util';
 

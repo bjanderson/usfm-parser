@@ -1,10 +1,11 @@
-import { DEFAULT_STRING } from '@bjanderson/utils';
+import { UsfmObject } from '../usfm-object';
 import { UsfmVerse } from './usfm-verse.model';
 
 describe('UsfmVerse', () => {
   describe('constructor defaults', () => {
     const defaults = {
-      id: DEFAULT_STRING,
+      verse: null,
+      verseObjects: [],
     };
 
     it('should have the expected fields', () => {
@@ -18,8 +19,9 @@ describe('UsfmVerse', () => {
 
   describe('constructor assignments', () => {
     it('should set all values passed into the constructor', () => {
-      const test = {
-        id: 'test id',
+      const test: any = {
+        verse: 'test verse',
+        verseObjects: [new UsfmObject({ tag: 't', content: 'test verse' })],
       };
 
       expect(Object.values(test)).toEqual(Object.values(new UsfmVerse(test)));

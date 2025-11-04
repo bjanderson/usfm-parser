@@ -1,0 +1,41 @@
+#! /usr/bin/env node
+import * as readline from 'readline';
+import { ParserConfig } from './models';
+import { parse } from './parser';
+
+// parse(config);
+
+const askQuestion = (rl, question: string): Promise<string> => {
+  return new Promise((resolve) => {
+    rl.question(question, (answer) => {
+      resolve(answer);
+    });
+  });
+};
+
+const ask = (questions: string[]): Promise<string[]> => {
+  return new Promise(async (resolve) => {
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    });
+
+    const results = [];
+    for (let i = 0; i < questions.length; i++) {
+      const result = await askQuestion(rl, questions[i]);
+      results.push(result);
+    }
+    rl.close();
+    resolve(results);
+  });
+};
+
+const questions = ['Input directory (bsb_usfm): ', 'Output directory (bsb_html): '];
+
+ask(questions).then((answers) => {
+  const config = new ParserConfig({
+    inputDirectory: answers[0] || null,
+    outputDirectory: answers[1] || null,
+  });
+  parse(config);
+});

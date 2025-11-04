@@ -1,4 +1,3 @@
-/* eslint-disable no-use-before-define */
 import * as fs from 'fs';
 import * as path from 'path';
 import { jsonToUSFM } from '../jsonToUsfm';
@@ -209,7 +208,7 @@ function verifychildren(object, chapter, verse) {
 }
 
 function validateVerseObjects(verseObjects, chapter, verse, errors) {
-  for (let object of verseObjects) {
+  for (const object of verseObjects) {
     let error = false;
     if (object.type === 'word') {
       error = error || verifyAttribute(object, 'text', chapter, verse);
@@ -240,12 +239,12 @@ function validateVerseObjects(verseObjects, chapter, verse, errors) {
 }
 
 function validateUSFM3(json, errors) {
-  for (let chapter in json.chapters) {
+  for (const chapter in json.chapters) {
     if (!parseInt(chapter, 10)) {
       continue;
     }
     const chapterData = json.chapters[chapter];
-    for (let verse in chapterData) {
+    for (const verse in chapterData) {
       if (!parseInt(verse, 10)) {
         continue;
       }

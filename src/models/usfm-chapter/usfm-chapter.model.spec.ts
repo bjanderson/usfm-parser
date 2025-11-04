@@ -1,10 +1,10 @@
-import { DEFAULT_STRING } from '@bjanderson/utils';
 import { UsfmChapter } from './usfm-chapter.model';
 
 describe('UsfmChapter', () => {
   describe('constructor defaults', () => {
     const defaults = {
-      id: DEFAULT_STRING,
+      chapter: null,
+      verses: [],
     };
 
     it('should have the expected fields', () => {
@@ -19,7 +19,8 @@ describe('UsfmChapter', () => {
   describe('constructor assignments', () => {
     it('should set all values passed into the constructor', () => {
       const test = {
-        id: 'test id',
+        chapter: 'test chapter',
+        verses: [],
       };
 
       expect(Object.values(test)).toEqual(Object.values(new UsfmChapter(test)));

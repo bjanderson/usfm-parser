@@ -6,7 +6,7 @@ export class UsfmVerse {
   verseObjects: UsfmObject[];
 
   constructor(o?: Partial<UsfmVerse>) {
-    const obj: UsfmVerse = getObject(o);
+    const obj: Partial<UsfmVerse> = getObject(o);
     this.verse = getString(obj.verse, null);
     this.verseObjects = getArrayOfModels(UsfmObject, obj.verseObjects);
   }

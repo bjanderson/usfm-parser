@@ -31,7 +31,7 @@ export class PascalCase {
    id: string;
 
   constructor(o?: Partial<PascalCase>) {
-    const obj: PascalCase = getObject(o);
+    const obj: Partial<PascalCase> = getObject(o);
     this.id = getString(obj.id, null);
   }
 }
@@ -64,7 +64,7 @@ describe('PascalCase', () => {
 
   describe('constructor assignments', () => {
     it('should set all values passed into the constructor', () => {
-      const test = {
+      const test: any = {
         id: 'test id',
       };
 

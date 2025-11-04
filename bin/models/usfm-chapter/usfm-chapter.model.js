@@ -27,7 +27,7 @@ class UsfmChapter {
         // put front first
         const front = this.verses.pop();
         md += front.toHtml(id);
-        let footnotes = [];
+        const footnotes = [];
         this.verses.forEach((verse) => {
             verse.verseObjects.forEach((vo) => {
                 if (vo.tag === 'f') {

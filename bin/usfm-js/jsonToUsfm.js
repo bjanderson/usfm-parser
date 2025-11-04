@@ -25,7 +25,6 @@ PERFORMANCE OF THIS SOFTWARE.
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.jsonToUSFM = void 0;
-/* eslint-disable brace-style */
 /**
  * @description for converting from json format to USFM.  Main method is jsonToUSFM()
  */
@@ -153,9 +152,7 @@ const generatePhrase = (phraseObject, nextObject) => {
         }
     }
     let line = '\\' + tag + content;
-    /* eslint-disable no-use-before-define */
     line = objectToString(phraseObject.children, line);
-    /* eslint-enable no-use-before-define */
     if (markerTermination) {
         line += '\\' + markerTermination + (nextChar || needsNewLine(nextObject));
     }

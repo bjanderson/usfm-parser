@@ -1,1 +1,1 @@
-export * from './usfm-object.model'
+export * from './usfm-object.model';

@@ -23,7 +23,6 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 */
 
-/* eslint-disable no-use-before-define,no-negated-condition,brace-style */
 /**
  * @description for converting from USFM to json format.  Main method is usfmToJSON()
  */

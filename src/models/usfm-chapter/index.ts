@@ -1,1 +1,1 @@
-export * from './usfm-chapter.model'
+export * from './usfm-chapter.model';

@@ -1,1 +1,1 @@
-export * from './usfm-book.model'
+export * from './usfm-book.model';

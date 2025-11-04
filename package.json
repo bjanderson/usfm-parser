@@ -8,7 +8,7 @@
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "bin": {
-    "usfm-parser": "bin/index.js"
+    "usfm-parser": "bin/cli.js"
   },
   "directories": {
     "bin": "bin"
@@ -21,6 +21,7 @@
     "url": "git+https://github.com/bjanderson/usfm-parser.git"
   },
   "scripts": {
+    "prebuild": "rimraf ./bin",
     "build": "tsc",
     "doc": "typedoc --out ./docs src/**/*.ts",
     "lint": "eslint",
@@ -46,6 +47,7 @@
     "prettier": "3.6.2",
     "rimraf": "6.0.1",
     "ts-jest": "29.4.5",
+    "ts-node": "10.9.2",
     "typedoc": "0.28.14",
     "typescript": "5.9.3",
     "typescript-eslint": "8.46.2"

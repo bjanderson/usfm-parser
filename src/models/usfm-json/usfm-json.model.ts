@@ -9,7 +9,7 @@ export class UsfmJson {
   headers: any[];
 
   constructor(o?: Partial<UsfmJson>) {
-    const obj: UsfmJson = getObject(o);
+    const obj: Partial<UsfmJson> = getObject(o);
     this.chapters = obj.chapters;
     this.headers = obj.headers;
   }

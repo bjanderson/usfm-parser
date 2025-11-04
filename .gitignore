@@ -45,6 +45,8 @@ lerna-debug.log*
 # temp directory
 .temp
 .tmp
+bsb_html
+bsb_json
 
 # Runtime data
 pids

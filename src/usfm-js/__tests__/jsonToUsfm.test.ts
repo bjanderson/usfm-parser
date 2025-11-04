@@ -1,4 +1,3 @@
-/* eslint-disable no-use-before-define,padded-blocks */
 import { jsonToUSFM } from '../jsonToUsfm';
 import { readJSON, readUSFM } from './util';
 
@@ -243,7 +242,7 @@ describe('JSON to USFM', () => {
 //
 
 function normalizeAtributesAlign(tag, source) {
-  let parts = source.split(tag);
+  const parts = source.split(tag);
   const length = parts.length;
   for (let i = 1; i < length; i++) {
     const part = parts[i];
@@ -255,7 +254,7 @@ function normalizeAtributesAlign(tag, source) {
         endMarker = '\\*'; // old format ended at new line
       }
     }
-    let lines = part.split(endMarker);
+    const lines = part.split(endMarker);
     let attributes = lines[0].split(' ');
     attributes = attributes.sort();
     const newAttributes = attributes.join(' ');
@@ -267,12 +266,12 @@ function normalizeAtributesAlign(tag, source) {
 }
 
 function normalizeAtributesWord(tag, source) {
-  let parts = source.split(tag);
+  const parts = source.split(tag);
   const length = parts.length;
   for (let i = 1; i < length; i++) {
     const item = parts[i];
     if (item.substr(0, 1) !== '*') {
-      let sections = item.split('|');
+      const sections = item.split('|');
       if (sections <= 1) {
         console.log('Broken word tag: ' + item);
       } else {

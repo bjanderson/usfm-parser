@@ -25,7 +25,6 @@ PERFORMANCE OF THIS SOFTWARE.
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.usfmToJSON = exports.getAlignmentFormat = exports.pushObject = exports.createUsfmObject = void 0;
-/* eslint-disable no-use-before-define,no-negated-condition,brace-style */
 /**
  * @description for converting from USFM to json format.  Main method is usfmToJSON()
  */

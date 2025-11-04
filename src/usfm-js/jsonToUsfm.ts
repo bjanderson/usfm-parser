@@ -23,7 +23,6 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 */
 
-/* eslint-disable brace-style */
 /**
  * @description for converting from json format to USFM.  Main method is jsonToUSFM()
  */
@@ -156,9 +155,7 @@ const generatePhrase = (phraseObject, nextObject) => {
   }
   let line = '\\' + tag + content;
 
-  /* eslint-disable no-use-before-define */
   line = objectToString(phraseObject.children, line);
-  /* eslint-enable no-use-before-define */
 
   if (markerTermination) {
     line += '\\' + markerTermination + (nextChar || needsNewLine(nextObject));

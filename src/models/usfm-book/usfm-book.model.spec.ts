@@ -1,10 +1,13 @@
-import { DEFAULT_STRING } from '@bjanderson/utils';
+import { UsfmChapter } from '../usfm-chapter';
+import { UsfmObject } from '../usfm-object';
 import { UsfmBook } from './usfm-book.model';
 
 describe('UsfmBook', () => {
   describe('constructor defaults', () => {
     const defaults = {
-      id: DEFAULT_STRING,
+      chapters: [],
+      headers: [],
+      title: 'Unknown Title',
     };
 
     it('should have the expected fields', () => {
@@ -18,8 +21,10 @@ describe('UsfmBook', () => {
 
   describe('constructor assignments', () => {
     it('should set all values passed into the constructor', () => {
-      const test = {
-        id: 'test id',
+      const test: any = {
+        chapters: [new UsfmChapter()],
+        headers: [new UsfmObject({ tag: 'toc1', content: 'Test Title' })],
+        title: 'Test Title',
       };
 
       expect(Object.values(test)).toEqual(Object.values(new UsfmBook(test)));

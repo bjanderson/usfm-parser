@@ -10,7 +10,7 @@ export class UsfmObject {
   type: string;
 
   constructor(o?: Partial<UsfmObject>) {
-    const obj: UsfmObject = getObject(o);
+    const obj: Partial<UsfmObject> = getObject(o);
     this.content = getString(obj.content);
     this.endTag = getString(obj.endTag);
     this.footnoteNum = getNumber(obj.footnoteNum);

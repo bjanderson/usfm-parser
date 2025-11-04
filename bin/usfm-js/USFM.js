@@ -25,7 +25,6 @@ PERFORMANCE OF THIS SOFTWARE.
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.wordSpecialAttributes = exports.propUsfm3Milestone = exports.markerHasSpecialEndTag = exports.markerIsMilestone = exports.markerSupportsNumbers = exports.markerContentDisplayable = exports.markerDisplayable = exports.propDisplayable = exports.markerStandalone = exports.propStandalone = exports.markerHasEndAttributes = exports.propAttributes = exports.markerTermination = exports.propTermination = exports.markerType = exports.propType = exports.USFM_PROPERTIES = exports.SPECIAL_END_TAGS = exports.MARKERS_WITH_NUMBERS = void 0;
-/* eslint-disable quote-props */
 /**
  * USFM definitions
  */

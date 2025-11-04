@@ -25,7 +25,6 @@ PERFORMANCE OF THIS SOFTWARE.
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.mergeVerseData = exports.convertStringToVerseObjects = exports.removeMarker = void 0;
-/* eslint-disable no-use-before-define,brace-style */
 const usfmToJson_1 = require("./usfmToJson");
 /* Method to filter specified usfm marker from a string
  * @param {string} string - The string to remove specfic marker from

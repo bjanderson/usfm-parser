@@ -7,7 +7,7 @@ export class UsfmChapter {
   verses: UsfmVerse[];
 
   constructor(o?: Partial<UsfmChapter>) {
-    const obj: UsfmChapter = getObject(o);
+    const obj: Partial<UsfmChapter> = getObject(o);
     this.chapter = getString(obj.chapter, null);
     this.verses = getArrayOfModels(UsfmVerse, obj.verses);
   }
@@ -31,7 +31,7 @@ export class UsfmChapter {
     const front = this.verses.pop();
     md += front.toHtml(id);
 
-    let footnotes: UsfmObject[] = [];
+    const footnotes: UsfmObject[] = [];
 
     this.verses.forEach((verse) => {
       verse.verseObjects.forEach((vo) => {

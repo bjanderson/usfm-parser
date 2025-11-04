@@ -1,4 +1,4 @@
-import { DEFAULT_STRING } from '@bjanderson/utils';
+import { DEFAULT_NUMBER, DEFAULT_STRING } from '@bjanderson/utils';
 import { UsfmObject } from './usfm-object.model';
 
 describe('UsfmObject', () => {
@@ -6,6 +6,7 @@ describe('UsfmObject', () => {
     const defaults = {
       content: DEFAULT_STRING,
       endTag: DEFAULT_STRING,
+      footnoteNum: DEFAULT_NUMBER,
       nextChar: DEFAULT_STRING,
       tag: DEFAULT_STRING,
       text: DEFAULT_STRING,
@@ -26,6 +27,7 @@ describe('UsfmObject', () => {
       const test = {
         content: 'test content',
         endTag: 'test endTag',
+        footnoteNum: 1,
         nextChar: 'test nextChar',
         tag: 'test tag',
         text: 'test text',

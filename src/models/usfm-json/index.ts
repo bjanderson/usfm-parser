@@ -1,1 +1,1 @@
-export * from './usfm-json.model'
+export * from './usfm-json.model';

@@ -53,7 +53,7 @@ const generateRoundTripTest = (name) => {
 const getFilesOfType = (folder, type) => {
   const results = [];
   const files = fs.readdirSync(folder);
-  for (let file of files) {
+  for (const file of files) {
     const parts = file.split('.');
     if (parts.length === 2 && parts[1].toLowerCase() === type) {
       results.push(file);
@@ -68,7 +68,7 @@ const getFilesOfType = (folder, type) => {
  * @param {function} callback - executed after load finishes
  */
 function getText(url, callback) {
-  let request = require('request');
+  const request = require('request');
   request.get(
     {
       url: url,
